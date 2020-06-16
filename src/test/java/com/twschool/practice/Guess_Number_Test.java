@@ -20,15 +20,15 @@ public class Guess_Number_Test {
         //then
         assertThat(num,is("4A0B"));
     }
-//    @Test
-//    public void should_return_2A2B_when_given_1243 () {
-//        //given
-//        Guess_Number guess_Number=new Guess_Number();
-//        //when
-//        String num=guess_Number.set_Random_Not_Same();
-//        //then
-//        assertThat(num,is("2A2B"));
-//    }
+    @Test
+    public void should_return_2A2B_when_given_1243 () {
+        //given
+        Guess_Number guess_Number=new Guess_Number();
+        //when
+        String num=guess_Number.set_Random_Not_Same();
+        //then
+        assertThat(num,is("2A2B"));
+    }
 //    @Test
 //    public void should_return_1A2B_when_given_1543 () {
 //        //given
